@@ -4,7 +4,7 @@ Looking for [Rails](../master/Ruby-on-Rails-Cheatsheet.md)?
 # Ruby Cheatsheet
 
 ##### Table of Contents
-
+- [other useful references](#other useful references)
 - [Basics](#basics)  
 - [Vars, Constants, Arrays, Hashes & Symbols](#vars-constants-arrays-hashes--symbols)  
 - [Methods](#methods)
@@ -20,6 +20,9 @@ Looking for [Rails](../master/Ruby-on-Rails-Cheatsheet.md)?
 - [Loops](#loops)
 - [Sorting & Comparing](#sorting--comparing)  
 - [Useful Methods](#useful-methods)
+
+## other useful references
+- [ruby vs python](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
 
 ## Basics
 
