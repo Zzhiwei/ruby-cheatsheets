@@ -4,7 +4,7 @@ Looking for [Rails](../master/Ruby-on-Rails-Cheatsheet.md)?
 # Ruby Cheatsheet
 
 ##### Table of Contents
-- [other useful references](#other useful references)
+- [other useful references](#other-useful-references)
 - [Basics](#basics)  
 - [Vars, Constants, Arrays, Hashes & Symbols](#vars-constants-arrays-hashes--symbols)  
 - [Methods](#methods)
