@@ -20,6 +20,7 @@ Looking for [Rails](../master/Ruby-on-Rails-Cheatsheet.md)?
 - [Loops](#loops)
 - [Sorting & Comparing](#sorting--comparing)  
 - [Useful Methods](#useful-methods)
+- [Exception Handling](#Exception-Handling)
 
 ## other useful references
 - [ruby vs python](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
@@ -456,4 +457,30 @@ array.sort! { |a, b| b <=> a } # to sort from Z to A instead of A to Z
 1.2.floor # 1 # rounds a float (a number with a decimal) down to the nearest integer.
 cube.call # implying that cube is a proc, call calls procs directly
 Time.now # displays the actual time
+```
+
+## Exception Handling
+```Ruby
+begin
+  # Some code that might raise an exception
+  result = 10 / 0 # This will raise a ZeroDivisionError
+rescue ZeroDivisionError => e
+  # Code to handle the exception
+  puts "An error occurred: #{e.message}"
+  result = 0
+else
+  # Code to execute if no exceptions are raised
+  puts "The result is #{result}"
+ensure
+  # Code that is always executed, regardless of whether an exception is raised or not
+  puts "Done!"
+end
+
+def my_method
+  # some code that might raise an exception
+rescue
+  # code to handle the exception
+ensure
+  # code that is always executed, regardless of whether an exception was raised or not
+end
 ```
