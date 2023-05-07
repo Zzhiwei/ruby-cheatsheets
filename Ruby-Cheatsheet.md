@@ -73,6 +73,12 @@ my_hash = Hash.new("default value")
 hash.select{ |key, value| value > 3 } # selects all keys in hash that have a value greater than 3
 hash.each_key { |k| print k, " " } # ==> key1 key2
 hash.each_value { |v| print v } # ==> value1value2
+h.each do |key, value|
+    puts "#{key} = #{value}"
+end
+h.each_with_index do |(key, value), index|
+    puts "index: #{index} | key: #{key} | value: #{value}"
+end
 
 my_hash.each_value { |v| print v, " " }
 # ==> 1 2 3
